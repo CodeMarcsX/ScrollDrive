@@ -42,13 +42,13 @@
 /* Large number style */
 .class-counter h1 {
     width: 100%;
-    font-family: 'PP Monument Extended';
-    text-transform: uppercase;
     font-family: var(--secundaria-font);
+    text-transform: uppercase;
     font-size: 150px;
     line-height: 1;
     letter-spacing: -0.04em;
 
     will-change: transform;
 }
+
 
