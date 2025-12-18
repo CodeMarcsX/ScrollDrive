@@ -1,8 +1,8 @@
 /* =========================================================
-   NAVBAR / TOPO
+   NAVBAR / HEADER
 ========================================================= */
 
-/* Container principal do menu */
+/* Header */
 nav {
     position: absolute;
     top: 0;
@@ -15,7 +15,7 @@ nav {
     z-index: 2;
 }
 
-/* Logo textual */
+/* Text logo */
 p#logo {
     text-transform: uppercase;
     font-family: var(--secundaria-font);
