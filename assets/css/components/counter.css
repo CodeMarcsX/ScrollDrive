@@ -1,8 +1,8 @@
 /* =========================================================
-   CONTADOR DE ETAPAS
+   STEP COUNTER
 ========================================================= */
 
-/* Container do contador */
+/* Counter container */
 .class-counter {
     position: absolute;
     display: flex;
@@ -10,7 +10,7 @@
     margin: 2em;
 }
 
-/* Máscara do título e dos números */
+/* Title and numbers mask */
 .counter-title,
 .count {
     position: relative;
@@ -26,12 +26,12 @@
     font-style: italic;
 }
 
-/* Ajuste fino da posição dos números */
+/* Fine adjustment of number position */
 .count {
     top: -10px;
 }
 
-/* Container interno que anima verticalmente */
+/* Inner container that animates vertically */
 .count-container {
     position: relative;
     transform: translateY(150px);
@@ -39,7 +39,7 @@
     left: 17%;
 }
 
-/* Estilo dos números grandes */
+/* Large number style */
 .class-counter h1 {
     width: 100%;
     color: #fff;
