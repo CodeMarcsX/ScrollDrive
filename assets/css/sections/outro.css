@@ -1,8 +1,8 @@
 /* =========================================================
-   SEÇÃO OUTRO (TEXTO ANIMADO)
+   OUTRO SECTION (ANIMATED TEXT)
 ========================================================= */
 
-/* Container do texto animado */
+/* Animated text container */
 .outro {
     display: flex;
     justify-content: center;
@@ -10,12 +10,12 @@
     height: 50vw;
     min-height: 100vh;
 
-    /* Gradiente de fundo sutil */
+    /* Subtle background gradient */
     background: var(--outro-gradient);
     background-size: 200% 200%;
 }
 
-/* Texto principal */
+/* Main text */
 .outro p {
     width: 75%;
     text-align: center;
