@@ -3,19 +3,18 @@
 ========================================================= */
 
 :root {
-    /* Background Color */
+    /* Background color */
     --bg-main: #000;
 
     /* Fonts */
     --principal-font: 'Helvetica Now Display';
     --secundaria-font: 'PP Monument Extended';
 
-    /* Fonts color */
+    /* Font colors */
     --principal-color: #fff;
     --neon: #75e1ff;
 
     /* Gradients */
     --intro-gradient: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 1) 100%);
     --outro-gradient: linear-gradient(180deg, #000, #364549);
-
 }
