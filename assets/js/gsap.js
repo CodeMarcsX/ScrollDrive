@@ -3,15 +3,16 @@
 // ================================
 
 export function initGsap() {
-    gsap.registerPlugin(ScrollTrigger);                 // Ativa o ScrollTrigger no GSAP
+    gsap.registerPlugin(ScrollTrigger);                 // Enables ScrollTrigger in GSAP
 
-    const lenis = new Lenis();                          // Inicializa o scroll suave
+    const lenis = new Lenis();                          // Initializes smooth scrolling
 
-    lenis.on("scroll", ScrollTrigger.update);           // Atualiza o ScrollTrigger ao rolar
+    lenis.on("scroll", ScrollTrigger.update);           // Updates ScrollTrigger on scroll
 
-    gsap.ticker.add((time) => {                         // Loop de atualização do GSAP
-        lenis.raf(time * 1000);                         // Atualiza o Lenis a cada frame
+    gsap.ticker.add((time) => {                         // GSAP update loop
+        lenis.raf(time * 1000);                         // Updates Lenis on each frame
     });
 
-    gsap.ticker.lagSmoothing(0);                        // Remove suavização de lag 
+    gsap.ticker.lagSmoothing(0);                        // Disables lag smoothing
+
 }
