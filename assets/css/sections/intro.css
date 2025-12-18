@@ -2,7 +2,7 @@
    INTRO
 ========================================================= */
 
-/* Seção inicial com imagem de fundo */
+/* Initial section with background image */
 .intro {
     background: 
         var(--intro-gradient),
