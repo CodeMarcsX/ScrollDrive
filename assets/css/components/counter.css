@@ -44,12 +44,13 @@
     width: 100%;
     color: --principal-color;
     text-transform: uppercase;
-    font-family: --secundaria-font;
+    font-family: var(--secundaria-font);
     font-size: 150px;
     line-height: 1;
     letter-spacing: -0.04em;
 
     will-change: transform;
 }
+
 
 
