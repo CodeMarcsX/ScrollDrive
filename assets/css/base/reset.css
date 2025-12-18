@@ -20,8 +20,8 @@ html, body {
     width: 10vw;
     height: 900vh;
     background-color: #000;
-    color: #fff;
-    font-family: 'Helvetica Now Display';
+    color: var(--principal-color);
+    font-family: var(--principal-font);
 }
 
 /* Default adjustment for responsive images */
@@ -38,3 +38,4 @@ section {
     height: 100vw;
     overflow: hidden;
 }
+
