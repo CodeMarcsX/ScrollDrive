@@ -9,15 +9,14 @@
 
 /* LAYOUT */
 @import './layout/header.css';
-@import './layout/container.css';
 
 /* COMPONENTS */
 @import './components/button.css';
 @import './components/animation.css';
-@import './components/responsive.css';
 @import './components/cards.css';
 @import './components/counter.css';
 
 /* SECTIONS */
 @import './sections/intro.css';
 @import './sections/outro.css';
+
