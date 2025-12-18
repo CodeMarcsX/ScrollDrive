@@ -99,4 +99,6 @@ No commercial use is intended.
 
 and
 
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Online-success)](https://codemarcsx.github.io/ScrollDrive/){:target="_blank"}
+<a href="https://codemarcsx.github.io/ScrollDrive/" target="_blank">
+  <img src="https://img.shields.io/badge/GitHub%20Pages-Online-success" alt="GitHub Pages">
+</a>
