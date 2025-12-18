@@ -19,7 +19,7 @@
 
 /* Inner highlight that follows the animation */
 .outro p .line .highlight {
-    background: linear-gradient(to right, #75e1ff 50%, #555 50%);
+    background: linear-gradient(to right, var(--neon) 50%, #555 50%);
     background-size: 200% 100%;
     background-position-x: inherit;
 
@@ -28,3 +28,4 @@
     -webkit-background-clip: text;
 
 }
+
