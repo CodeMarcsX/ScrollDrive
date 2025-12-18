@@ -1,8 +1,8 @@
 /* =========================================================
-   BOTÃO
+   BUTTON
 ========================================================= */
 
-/* Estilo base do botão */
+/* Base button style */
 button {
     border: none;
     outline: none;
@@ -14,12 +14,12 @@ button {
     cursor: pointer;
 }
 
-/* Efeito hover */
+/* Hover effect */
 button:hover  {
     filter: brightness(93%);
 }
 
-/* Feedback de clique */
+/* Click feedback */
 button:active  {
     filter: brightness(100%);
 }
