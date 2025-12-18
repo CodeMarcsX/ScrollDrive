@@ -97,8 +97,6 @@ No commercial use is intended.
 
 ![Project Preview](Preview/preview.gif)
 
+and
 
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Online-success)](https://codemarcsx.github.io/ArcScroll/)
-
-```
-
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Online-success)]()
