@@ -1,0 +1,29 @@
+/* =========================================================
+   ANIMAÇÃO DE TEXTO POR LINHA (GSAP)
+========================================================= */
+
+/* Cada linha gerada pelo SplitType */
+.outro p .line {
+    display: block;
+
+    /* Gradiente usado para "acender" o texto */
+    background: linear-gradient(to right, #ffffff 50%, #555555 50%);
+    background-size: 200% 100%;
+    background-position-x: 100%;
+
+    /* Texto invisível fora do gradiente */
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+/* Destaque interno que acompanha a animação */
+.outro p .line .highlight {
+    background: linear-gradient(to right, #75e1ff 50%, #555 50%);
+    background-size: 200% 100%;
+    background-position-x: inherit;
+
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}

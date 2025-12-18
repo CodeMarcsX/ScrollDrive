@@ -1,0 +1,22 @@
+/* =========================================================
+   NAVBAR / TOPO
+========================================================= */
+
+/* Container principal do menu */
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    padding: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+}
+
+/* Logo textual */
+p#logo {
+    text-transform: uppercase;
+    font-family: var(--secundaria-font);
+}

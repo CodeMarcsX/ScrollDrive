@@ -1,0 +1,53 @@
+/* =========================================================
+   CONTADOR DE ETAPAS
+========================================================= */
+
+/* Container do contador */
+.class-counter {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+}
+
+/* Máscara do título e dos números */
+.counter-title,
+.count {
+    position: relative;
+    width: 1200px;
+    height: 150px;
+    overflow: hidden;
+
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.class-counter h1.classm {
+    font-weight: 900;
+    font-style: italic;
+}
+
+/* Ajuste fino da posição dos números */
+.count {
+    top: -10px;
+}
+
+/* Container interno que anima verticalmente */
+.count-container {
+    position: relative;
+    transform: translateY(150px);
+    will-change: transform;
+    left: 17%;
+}
+
+/* Estilo dos números grandes */
+.class-counter h1 {
+    width: 100%;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'PP Monument Extended';
+    font-size: 150px;
+    line-height: 1;
+    letter-spacing: -0.04em;
+
+    will-change: transform;
+}

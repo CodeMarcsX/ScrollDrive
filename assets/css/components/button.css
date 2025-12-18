@@ -1,0 +1,25 @@
+/* =========================================================
+   BOTÃO
+========================================================= */
+
+/* Estilo base do botão */
+button {
+    border: none;
+    outline: none;
+    font-weight: 500;
+    color: #000;
+    padding: 0.75em 1em;
+    background-color: #fff;
+    border-radius: 0.25em;
+    cursor: pointer;
+}
+
+/* Efeito hover */
+button:hover  {
+    filter: brightness(93%);
+}
+
+/* Feedback de clique */
+button:active  {
+    filter: brightness(100%);
+}

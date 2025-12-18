@@ -1,0 +1,12 @@
+/* =========================================================
+   INTRO
+========================================================= */
+
+/* Seção inicial com imagem de fundo */
+.intro {
+    background: 
+        var(--intro-gradient),
+        url("../../../assets/Images/background.jpeg") no-repeat 50% 50%;
+    background-size: cover;
+    height: 65vw;
+}

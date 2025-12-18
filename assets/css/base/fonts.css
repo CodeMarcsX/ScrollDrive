@@ -1,0 +1,16 @@
+/* =========================================================
+   IMPORTAÇÃO DE FONTES
+========================================================= */
+
+/* Fonte principal do site */
+@font-face {
+    font-family: 'Helvetica Now Display';
+    src: url('../../../assets/Fonts/HelveticaNowDisplay.ttf') format('truetype');
+}
+
+/* Fonte display usada em títulos e números grandes */
+@font-face {
+    font-family: 'PP Monument Extended';
+    src: url('../../../assets/Fonts/PPMonumentExtended.otf') format('opentype');
+    font-weight: 900;
+}

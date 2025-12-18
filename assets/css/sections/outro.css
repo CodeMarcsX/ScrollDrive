@@ -1,0 +1,27 @@
+/* =========================================================
+   SEÇÃO OUTRO (TEXTO ANIMADO)
+========================================================= */
+
+/* Container do texto animado */
+.outro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vw;
+    min-height: 100vh;
+
+    /* Gradiente de fundo sutil */
+    background: var(--outro-gradient);
+    background-size: 200% 200%;
+}
+
+/* Texto principal */
+.outro p {
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+    color: #555;
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 1.125;
+}

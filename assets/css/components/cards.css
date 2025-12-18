@@ -1,0 +1,60 @@
+/* =========================================================
+   CARDS
+========================================================= */
+
+/* Container geral dos cards */
+.cards {
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150vw;
+    height: 600px;
+
+    /* Otimização para animações */
+    will-change: transform;
+}
+
+/* Card individual */
+.card {
+    position: absolute;
+    width: 550px;
+    height: 500px;
+    top: -50%;
+    left: 50%;
+    margin-left: -250px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+    transform-origin: center center;
+    will-change: transform;
+}
+
+/* Imagem do card */
+.card-img {
+    flex: 1;
+    border-radius: 0.5em;
+    overflow: hidden;
+}
+
+/* Área de texto do card */
+.card-content {
+    width: 100%;
+    height: 60px;
+}
+
+/* Texto do card */
+.card-content p {
+    text-align: left;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.25;
+}
+
+/* Classe utilitária para esconder elementos */
+.empty {
+    opacity: 0;
+}
